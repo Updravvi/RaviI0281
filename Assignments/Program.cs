@@ -1,22 +1,34 @@
-﻿namespace Assignments
+﻿//using System.Security.Cryptography.X509Certificates;
+
+namespace Assignments
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
             Console.WriteLine("Hello, Ravi!");
 
-            Console.WriteLine("Welcome");
             Console.WriteLine("Multiplication Table Using a For Loop");
 
             Console.Write(" Enter the Number : ");
 
-            int x = int.Parse(Console.Read());
+            string s = Console.ReadLine();
+            int x = int.Parse(s);
 
-            Console.Write(" Enter Table of :"+x);
+            Console.Write(" Enter Table of :" + x);
 
-            Console.Write();
+            Multiply(x);
+
+
+            void Multiply(int x)
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.WriteLine(x + " *" + i + " = " + x * i);
+                }
+
+            }
+
 
 
 
