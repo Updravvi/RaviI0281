@@ -17,7 +17,6 @@ namespace Assignments
 
             Table(x);
 
-
             Console.WriteLine("Calculator");
             Console.Write("Enter 1st Number : ");
 
