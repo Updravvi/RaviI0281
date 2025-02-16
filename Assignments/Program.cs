@@ -8,9 +8,17 @@
             Console.WriteLine("Hello, Ravi!");
 
             Console.WriteLine("Welcome");
-            Console.WriteLine("Welcome to dotnet codes");
-            Console.WriteLine("Welcome to dotnet codes");
-            Console.WriteLine("Welcome to dotnet codes");
+            Console.WriteLine("Multiplication Table Using a For Loop");
+
+            Console.Write(" Enter the Number : ");
+
+            int x = int.Parse(Console.Read());
+
+            Console.Write(" Enter Table of :"+x);
+
+            Console.Write();
+
+
 
         }
     }
