@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ravi.upadhyay\\source\\repos\\Assignments\\Assignments.csproj",
+      "projectUniqueName": "C:\\Users\\ravi.upadhyay\\Source\\Repos\\RaviI0281\\Assignments\\Assignments.csproj",
       "projectName": "Assignments",
-      "projectPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\Assignments\\Assignments.csproj",
+      "projectPath": "C:\\Users\\ravi.upadhyay\\Source\\Repos\\RaviI0281\\Assignments\\Assignments.csproj",
       "packagesPath": "C:\\Users\\ravi.upadhyay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\Assignments\\obj\\",
+      "outputPath": "C:\\Users\\ravi.upadhyay\\Source\\Repos\\RaviI0281\\Assignments\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ravi.upadhyay\\AppData\\Roaming\\NuGet\\NuGet.Config",

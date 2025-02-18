@@ -7951,11 +7951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ravi.upadhyay\\source\\repos\\WebApplicationdemo2\\WebApplicationdemo2.csproj",
+      "projectUniqueName": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\WebApplicationdemo2\\WebApplicationdemo2.csproj",
       "projectName": "WebApplicationdemo2",
-      "projectPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\WebApplicationdemo2\\WebApplicationdemo2.csproj",
+      "projectPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\WebApplicationdemo2\\WebApplicationdemo2.csproj",
       "packagesPath": "C:\\Users\\ravi.upadhyay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\WebApplicationdemo2\\obj\\",
+      "outputPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\WebApplicationdemo2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ravi.upadhyay\\AppData\\Roaming\\NuGet\\NuGet.Config",

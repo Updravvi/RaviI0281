@@ -23,7 +23,7 @@ namespace WebApplicationdemo2
                 app.UseSwaggerUI();
                
             }
-
+                
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
