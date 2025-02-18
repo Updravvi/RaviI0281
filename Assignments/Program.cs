@@ -23,22 +23,42 @@ namespace Assignments
             //        Console.WriteLine(x + " *" + i + " = " + x * i);
             //    }
 
-            //}
-            Calculator ca = new Calculator();
+            ////}
+            //Calculator ca = new Calculator();
 
-            ca.CalculatorOperation();
+            //ca.CalculatorOperation();
+
+
+
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            int[] arr2 = { 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            Console.WriteLine("Array 1 length :"+arr.Length);
+            Console.WriteLine("Array 2 length :" + arr2.Length);
+
+            foreach (int item in arr){
+                Console.WriteLine(item);
+            }
+         
+
+            char[] gender = { 'm', 'f', 'm', 'm', 'f' };
+            int maleCount = 0, femaleCount = 0;
+
+            // Counting males and females using foreach
+            foreach (char g in gender)
+            {
+                if (g == 'm')
+                    maleCount++;
+                else if (g == 'f')
+                    femaleCount++;
+            }
+
+            Console.WriteLine("Number of males: " + maleCount);
+            Console.WriteLine("Number of females: "
+            + femaleCount);
+
             Console.ReadLine();
-
-
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }
-
-             int[] arr2 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }
-
-
-
-
-
-
 
         }
     }
