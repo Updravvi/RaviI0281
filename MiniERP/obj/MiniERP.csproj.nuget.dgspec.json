@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ravi.upadhyay\\source\\repos\\MiniERP\\MiniERP.csproj": {}
+    "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\MiniERP\\MiniERP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ravi.upadhyay\\source\\repos\\MiniERP\\MiniERP.csproj": {
+    "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\MiniERP\\MiniERP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravi.upadhyay\\source\\repos\\MiniERP\\MiniERP.csproj",
+        "projectUniqueName": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\MiniERP\\MiniERP.csproj",
         "projectName": "MiniERP",
-        "projectPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\MiniERP\\MiniERP.csproj",
+        "projectPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\MiniERP\\MiniERP.csproj",
         "packagesPath": "C:\\Users\\ravi.upadhyay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\MiniERP\\obj\\",
+        "outputPath": "C:\\Users\\ravi.upadhyay\\source\\repos\\RaviI0281\\MiniERP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ravi.upadhyay\\AppData\\Roaming\\NuGet\\NuGet.Config",
