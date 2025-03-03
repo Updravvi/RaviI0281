@@ -23,6 +23,8 @@ namespace MiniERP
             builder.Services.AddScoped<ICustomerLogic,CustomerLogic>();
             builder.Services.AddScoped<ISuppliersLogic,SuppliersLogic>();
             builder.Services.AddScoped<IProductLogic,ProductLogic>();
+            builder.Services.AddScoped<IPurchaseLogic, PurchaseLogic>();
+            builder.Services.AddScoped<ISalesLogic, SalesLogic>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
