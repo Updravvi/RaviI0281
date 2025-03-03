@@ -38,6 +38,11 @@ namespace MiniERP.Controllers
         [Route("/UpdateProduct/{id}")]
         public IActionResult UpdateProductById(int id, [FromBody] Products product)
         {
+            var Prod = Context.Products.Find(id);
+            if (Prod == null)
+            {
+                return NotFound();
+            }
             ProductLogic.UpdateProductById(id, product);
             return Ok();
         }

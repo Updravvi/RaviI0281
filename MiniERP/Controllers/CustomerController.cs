@@ -50,7 +50,12 @@ namespace MiniERP.Controllers
         [Route("/UpdateCustomer/{id}")]
         public IActionResult UpdateCustomerById(int id, [FromBody] Customers cust)
         {
-           CustomerLogic.UpdateCustomerById(id,cust);
+            var AllCust = Context.Customers.Find(id);
+            if (AllCust == null)
+            {
+                return NotFound();
+            }
+            CustomerLogic.UpdateCustomerById(id,cust);
            return Ok();
         }
 

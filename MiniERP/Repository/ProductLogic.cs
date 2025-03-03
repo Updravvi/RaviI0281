@@ -30,7 +30,7 @@ namespace MiniERP.Repository
         {
 
             var Prod = Context.Products.Find(id);
-            if (Prod is null)
+            if (Prod !=null)
             {
                 return Task.CompletedTask;
             }

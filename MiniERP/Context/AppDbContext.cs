@@ -15,6 +15,8 @@ namespace MiniERP.Context
         public DbSet<Products> Products { get; set; }
         public DbSet<Suppliers> Suppliers { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<PurchaseOrder> PurchaseOrder{ get; set; }
+        public DbSet<SalesOrder> SalesOrder { get; set; }
 
     }
 }

@@ -33,7 +33,7 @@ namespace MiniERP.Repository
         public Task UpdateCustomerById(int id, Customers customer)
         {
             var Cust = Context.Customers.Find(id);
-            if (Cust is null)
+            if (Cust !=null)
             {
                 return Task.CompletedTask;
             }  

@@ -38,6 +38,11 @@ namespace MiniERP.Controllers
         [Route("/UpdateSupplier/{id}")]
         public IActionResult UpdateCustomerById(int id, [FromBody] Suppliers supplierst)
         {
+            var Sup = Context.Suppliers.Find(id);
+            if (Sup == null)
+            {
+                return NotFound();
+            }
             SuppliersLogic.UpdateSuppliersById(id, supplierst);
             return Ok();
         }
